@@ -77,4 +77,4 @@ export async function ambilBarang(docId) {
   const docSnap = await getDoc(docRef);
 
   return await docSnap.data();
-}
+}.
